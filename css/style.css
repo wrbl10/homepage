@@ -1,0 +1,135 @@
+html
+{
+    box-sizing: border-box;
+}
+*, ::after, ::before
+{
+    box-sizing: inherit;
+}
+.paragraph
+{
+   line-height: 1.5;
+   font-size: large;
+}
+
+.greybackground
+{
+    background-color: grey;
+}
+
+.element
+{
+    font-family: 'Lato', sans-serif;
+    
+}
+.header
+{
+    color: royalblue;
+    text-align: center;   
+}
+.img
+{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 11px #aaa ;
+}
+
+.SubHeader
+{
+    color: slateblue;
+    
+}
+.table
+{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+.TableCell
+{
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+.TableHeader
+{
+    background-color: steelblue;
+    color: #eee
+}
+.TableHeader:hover
+{
+    background-color: slateblue;
+}
+.TableRow:nth-child(even)
+{
+    background: #eee;
+}
+.TableRow:hover
+{
+    background: #ddd;
+}
+.container
+{
+   overflow-x: auto;
+   padding: 0 20px;
+   margin: 0 auto;
+   max-width: 1000px
+}
+.list
+{
+    list-style-type: none;
+    color: slateblue;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid slateblue;
+}
+.navitem
+{
+    margin: 10px;
+}
+.link
+{
+    text-decoration: none;
+}
+.link:visited
+{
+    color: slateblue;
+}
+.link:hover
+{
+    color: dodgerblue;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.link:active
+{
+    color: hsl(106,90,300);
+}
+.footer
+{
+    background-color: steelblue;
+    padding: 35px;
+    text-align: center;
+    font-size: larger;
+    color: #eee;
+    font-weight: bold;
+}
+
+.button
+{
+    background-color: steelblue;
+    padding: 20px;
+    color: #eee;
+    border: none;
+    font-size: 13px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.button:hover
+{
+    background-color: slateblue;
+}
